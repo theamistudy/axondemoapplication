@@ -3,7 +3,6 @@ package com.amisoft.axon.poc.demo;
 import com.amisoft.axon.poc.demo.account.Account;
 import com.amisoft.axon.poc.demo.coreapi.CreateAccountCommand;
 import com.amisoft.axon.poc.demo.coreapi.WithdrawMoneyCommand;
-import org.axonframework.commandhandling.AsynchronousCommandBus;
 import org.axonframework.commandhandling.CommandBus;
 import org.axonframework.commandhandling.CommandCallback;
 import org.axonframework.commandhandling.CommandMessage;

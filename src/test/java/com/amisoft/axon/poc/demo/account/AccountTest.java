@@ -6,12 +6,8 @@ import com.amisoft.axon.poc.demo.coreapi.MoneyWithdrawnEvent;
 import com.amisoft.axon.poc.demo.coreapi.WithdrawMoneyCommand;
 import org.axonframework.test.FixtureConfiguration;
 import org.axonframework.test.Fixtures;
-import org.axonframework.test.saga.AnnotatedSagaTestFixture;
 import org.junit.Before;
-import org.junit.FixMethodOrder;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class AccountTest {
 
